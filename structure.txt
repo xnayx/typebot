@@ -1,0 +1,16 @@
+import { Command } from "../../structures/Command";
+import { SlashCommandBuilder } from "discord.js";
+
+export default class ticket extends Command {
+    constructor() {
+        super({
+            data: new SlashCommandBuilder()
+                .setName("")
+                .setDescription(""),
+
+            run: async ({ interaction }) => {
+
+            },
+        });
+    }
+}

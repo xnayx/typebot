@@ -1,0 +1,23 @@
+{
+    "general": {
+        "errors": {
+            "type_images": "la imagen tiene que ser jpg, jpeg, o png.",
+            "not_viewable_or_txtBased": "ese canal no es visible para mi o no es un canal de texto.",
+            "not_permissions_user": "No puedes usar este comando porque no tienes estos permisos: {permissions}",
+            "not_permissions_bot": "No puedes usar este comando porque no tengo estos permisos: {permissions}",
+            "maintenance": "El comando `{command}` está en mantenimiento."
+        },
+        "results": {
+            "message_sent": "Mensaje enviado."
+        }
+    },
+
+    "setLang": {
+        "errors": {
+            "lang_already_seted": "Ya has elegido ese idioma. Para cambiarlo elije otro."
+        },
+        "results": {
+            "lang_seted": "Se ha establecido el idioma correctamente. Ahora el idioma del bot es: {lang}."
+        }
+    }
+}
