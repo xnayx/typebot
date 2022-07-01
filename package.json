@@ -8,7 +8,7 @@
         "cmds": "ts-node slash.ts",
         "build": "tsc"
     },
-    "keywords": [],
+    "keywords": ["bot", "typeScript", "discord", "discord-bot"],
     "author": "xnayx#8248",
     "license": "ISC",
     "devDependencies": {
