@@ -87,9 +87,6 @@ export class ExtendedClient extends Client {
         fs.readdirSync("./commands/").forEach((dir) => {   
             fs.readdirSync(`./commands/${dir}`).forEach(async (file) => {
                 this.Loggers.log(dir+"/"+file);
-                if (!file.endsWith(".ts"))
-                    return;
-
                 const command = await import(`../commands/${dir}/${file}`);
                 const data = new command.default();        
 

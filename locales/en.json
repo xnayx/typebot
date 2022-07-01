@@ -18,5 +18,10 @@
         "results": {
             "lang_seted": "The language has been set correctly. Now the bot language is: {lang}."
         }	
+    },
+    "avatar": {
+        "results": {
+            "avatar_title": "{user}'s avatar"
+        }
     }
 }

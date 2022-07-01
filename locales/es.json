@@ -19,5 +19,10 @@
         "results": {
             "lang_seted": "Se ha establecido el idioma correctamente. Ahora el idioma del bot es: {lang}."
         }
+    },
+    "avatar": {
+        "results": {
+            "avatar_title": "Avatar de {user}"
+        }
     }
 }
