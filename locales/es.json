@@ -24,5 +24,18 @@
         "results": {
             "avatar_title": "Avatar de {user}"
         }
+    },
+    "help": {
+        "embeds": {
+            "main": {
+                "title": "Comandos",
+                "description": "Hola {user}, tengo `{commandsSize}` comandos que puedes usar entre varias categorias.\n\nPara elegir una categoría usa el menú de abajo.",
+                "menuText": "Elige una categoría"
+            },
+            "commandsCategory": "Comandos de la categoría {category}"
+        },
+        "menu": {
+            "optionDescription": "Muestra los comandos de la categoría {category}"
+        }
     }
 }

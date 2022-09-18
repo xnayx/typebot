@@ -23,5 +23,18 @@
         "results": {
             "avatar_title": "{user}'s avatar"
         }
+    },
+    "help": {
+        "embeds": {
+            "main": {
+                "title": "commands",
+                "description": "Hi {user}, I have `{commandsSize}` commands that you can use among several categories.\n\nTo choose a category use the menu below.",
+                "menuText": "choose a category"
+            },
+            "commandsCategory": "{category} Category Commands"
+        },
+        "menu": {
+            "optionDescription": "Displays the {category} category commands"
+        }
     }
 }

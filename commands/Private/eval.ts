@@ -3,7 +3,7 @@ import { Command } from "../../structures/Command";
 import { SlashCommandBuilder, ModalBuilder, TextInputBuilder, ActionRowBuilder, TextInputStyle } from "discord.js";
 import { inspect } from "util";
 
-export default class Eval extends Command {
+export default class commandC extends Command {
     constructor() {
         super({
             botPerms: false,

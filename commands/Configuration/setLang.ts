@@ -2,7 +2,7 @@ import { Command } from "../../structures/Command";
 import { SlashCommandBuilder } from "discord.js";
 import guildModel from "../../models/guild/Guild";
 
-export default class ticket extends Command {
+export default class commandC extends Command {
     constructor() {
         super({
             botPerms: ["ManageGuild"],
@@ -22,7 +22,7 @@ export default class ticket extends Command {
                 ),
 
             run: async ({ client, interaction }) => {
-                const language: any = interaction.options.getString("language");
+                const language = interaction.options.getString("language", true);
                 await guildModel.findOne({ guildId: interaction.guild.id })
                     .then(async (results: any) => {
                         if(results.lang === language)

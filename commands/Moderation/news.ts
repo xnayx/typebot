@@ -1,7 +1,7 @@
 import { Command } from "../../structures/Command";
 import { SlashCommandBuilder, EmbedBuilder, Attachment } from "discord.js";
 
-export default class ticket extends Command {
+export default class commandC extends Command {
     constructor() {
         super({
             botPerms: ["ManageGuild"],
