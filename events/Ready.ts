@@ -9,7 +9,7 @@ export default class Ready extends Events {
 
     run() {
         this.client.Loggers.log("Logged in client: "+this.client.user?.tag);
-        mongoose.connect("mongodb+srv://nar:alex012@cluster0.o6jyr.mongodb.net/typescript-bot?retryWrites=true&w=majority").then(async () => {
+        mongoose.connect("").then(async () => {
             this.client.Loggers.log("conectado a MongoDB");
         }).catch((err: Error) => {
             this.client.Loggers.error(err);
